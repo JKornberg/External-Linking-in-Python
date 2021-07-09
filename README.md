@@ -9,7 +9,7 @@ To compile the C++ files into a .so library, install CMake and run
 
 To compile the Rust file into a .so library, install rustc and run
 
-`rustc -o lib_rust_xorcipher.so xorcipher.rs --crate-type cdylib`
+`rustc -o lib_rust_xorcipher.so xorcipher.rs --crate-type=cdylib`
 
 # Run
 Run with `python cipher.py`
