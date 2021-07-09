@@ -63,7 +63,7 @@ class Application:
             else:
                 self.uiwin.addstr(1,round((width - 23)/2) , "Results from Benchmark")
                 r,p,c = self.benchmarks
-                c_string = "C Cipher:" + " " * (23-13-len(c)) + c
+                c_string = "C Cipher:" + " " * (23-10-len(c)) + c
                 self.uiwin.addstr(2,round((width - 23)/2), (c_string))
                 r_string = "Rust Cipher:" + " " * (23-13-len(r)) + r
                 self.uiwin.addstr(3,round((width - 23)/2), (r_string))
