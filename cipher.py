@@ -36,7 +36,7 @@ class Application:
         self.window.addstr(1,25,"Welcome to the XOR-Cipher App!")
         self.menu = self.create_menu()
         self.value = "This is a haiku; it is not too long I think; but you may disagree".encode('cp437')
-        self.key =  "But there's one sound that no one knows... What does the Fox say?".encode('cp437')
+        self.key =  "Never trust atoms; they make up everything.".encode('cp437')
         self.status = "Status: Application started successfully."
         self.uiprompt = None
         self.benchmarks = None
@@ -169,8 +169,8 @@ class Application:
         return res
     
     def rust_cipher(self, write=True):
-        text = "This is an example message".encode('cp437')
-        key = "My sample key".encode('cp437')
+        text = self.value
+        key = self.key
         lib = load_rust_cipher_lib()
         buf = create_string_buffer(len(text))
         lib.cipher(text,key,buf,len(text), len(key))

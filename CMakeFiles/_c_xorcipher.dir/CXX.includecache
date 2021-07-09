@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jbk/ppp/Ex3/ExternalLinking/xorcipher.cpp
+stdint.h
+-
+xorcipher.h
+/home/jbk/ppp/Ex3/ExternalLinking/xorcipher.h
+
+/home/jbk/ppp/Ex3/ExternalLinking/xorcipher.h
+cstdint
+-
+stdint.h
+-
+

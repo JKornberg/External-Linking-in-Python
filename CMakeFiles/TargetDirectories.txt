@@ -1,0 +1,3 @@
+/home/jbk/ppp/Ex3/ExternalLinking/CMakeFiles/rebuild_cache.dir
+/home/jbk/ppp/Ex3/ExternalLinking/CMakeFiles/edit_cache.dir
+/home/jbk/ppp/Ex3/ExternalLinking/CMakeFiles/_c_xorcipher.dir
